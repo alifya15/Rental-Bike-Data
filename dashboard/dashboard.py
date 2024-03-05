@@ -20,7 +20,7 @@ option = st.sidebar.selectbox(
     ('Home', 'Pertanyaan 1', 'Pertanyaan 2')
 )
 with st.sidebar:
-    st.image("dashboard/logo.jpg")
+    st.image("https://raw.githubusercontent.com/alifya15/Rental-Bike-Data/main/dashboard/logo.jpg")
 
 if option == 'Home':
     st.write("# Rental Bike Dataset")
