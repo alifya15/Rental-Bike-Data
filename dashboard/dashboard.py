@@ -4,7 +4,7 @@ import streamlit as st
 import seaborn as sns
 
 # Baca File csv
-data_day_df = pd.read_csv("dashboard/main_data.csv")
+data_day_df = pd.read_csv("https://raw.githubusercontent.com/alifya15/Rental-Bike-Data/main/dashboard/main_data.csv")
 
 # mengolah data
 data_day_df.sort_values(by="rental_date", inplace=True)
